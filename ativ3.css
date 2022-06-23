@@ -1,0 +1,48 @@
+*   {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkviolet;
+}
+
+body{
+    color: rgb(250, 62, 172);
+    background-color: rgb(216, 212, 212);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    padding: 0px 30px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+ }
+
+
+ .main-text {
+    color: black;
+ }
+
+ .navbar {
+
+    text-align: center;
+    margin: auto;
+    max-width: 1200px;
+ }
+
+
+
+
+
+ header {
+    background-color: pink;
+    padding: 0px 8px;
+}
+
+

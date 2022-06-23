@@ -1,0 +1,38 @@
+*   {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkviolet;
+}
+
+body{
+    color: red;
+    background-color: rgb(216, 212, 212);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    padding: 0px 30px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+ }
+
+ header {
+    background-color: pink;
+}
+
+
+.main-text {
+    background-color: #333;
+    padding: 10px 10px;
+    color:white;
+}
+

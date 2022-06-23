@@ -1,0 +1,62 @@
+*   {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.container {
+    padding: 0px 30px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+header {
+    background-color: rgb(156, 197, 238);
+}
+
+
+.main-text {
+    background-color: #333;
+    padding: 10px 10px;
+    color:white;
+}
+
+body {
+    color: black;
+    background-color: rgb(231, 105, 124);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+li {
+color: green;
+
+}   
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+            
+
+
+
+
+
