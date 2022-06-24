@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+nav ul li {
+    display: inline;
+}
+
+li {
+  padding: 80px;
+  text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.pet tosado {
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    max-width:1200px;
+}
+
+.pet tosado p {
+    width: 80%;  
+}
+
+.pet feliz {
+    width: 20%;
+}
+
+.banho {
+    width: 50%;
+}
+
+.tosa {
+    width: 50%;
+}
+
+
