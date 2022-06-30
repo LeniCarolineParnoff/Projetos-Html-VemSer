@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    .container {
+    width: 60%;
+    justify-content: space-between;
+    color: yellow;
+    }
+
+    header {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    }
+
+    header a {
+    color: yellow;
+    text-decoration: none;
+    }
+
+    header navbar navbar-expand-lg bg-light ul li {
+    display: inline;
+    margin-right: 15px;
+    }
+    
+    header navbar navbar-expand-lg bg-light {
+    margin-top: 20px;
+    }
