@@ -3,18 +3,41 @@
     padding: 0;
 }
 
-    .container {
-    width: 60%;
-    justify-content: space-between;
-    color: yellow;
+    body {
+    background-color: yellow;
     }
 
-    header {
+    .container {
+    margin: 30px auto;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1);
+    gap: 20px;
+    }
+
+
+    .container-fluid {
     display: flex;
+    justify-content: space-between;
+    color: yellow;
+    align-items: center;
     padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    
+    }
+
+    .nav {
+    display: inline-block;
+    }
+
+    header  {
+    display: flex;
+    gap: 20px;
+    padding: 5px;
     justify-content: space-between;
     background-color: black;
-    align-items: center;
+
     }
 
     header a {
@@ -22,11 +45,23 @@
     text-decoration: none;
     }
 
-    header navbar navbar-expand-lg bg-light ul li {
-    display: inline;
-    margin-right: 15px;
-    }
+    nav ul li {
     
-    header navbar navbar-expand-lg bg-light {
-    margin-top: 20px;
+    border-bottom: 1px;
+    text-align: left;
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
     }
+
+    nav ul{
+    list-style: none;
+    }
+  
+    .col {
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    }
+   
